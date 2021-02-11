@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem 'json', '~> 1.8', '>= 1.8.6'
-gem 'algoliasearch', '>= 1.26.0', '< 2.0.0'
+gem 'algoliasearch', git: 'https://github.com/prfalken/algoliasearch-client-ruby'
 
 if defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx'
   gem 'rubysl', '~> 2.0', :platform => :rbx
